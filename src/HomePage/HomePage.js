@@ -39,7 +39,7 @@ export default function HomePage() {
                             value={word}
                             onChange={(e) => setWord(e.target.value)}
                             autoFocus
-                            placeholder="search for a word"
+                            placeholder="  search for a word"
                         />
                         <button onClick={() => meaning()} disabled={!word}>Search</button>
 
@@ -73,7 +73,7 @@ export default function HomePage() {
             }
             {loading ?
                 <>
-                    <h1>Type a Word to Let me go,Pls</h1>
+                    {/* <h1>Type a Word to Let me go,Pls</h1> */}
                   
                 </> : ""}
         </>

@@ -10,8 +10,6 @@ export default function Nav() {
             <div className="nav">
                 <h1>Dictionary App</h1>
                 <div className="link">
-
-
                     <Link to='/'>Home</Link>
                     <Link to='/history'>History</Link>
                 </div>

@@ -33,7 +33,7 @@
 
     display: flex;
     align-items: center;
-    background: skyblue;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -51,9 +51,9 @@
 }
 
 .body input {
-    height: 1.5rem;
-    border-radius: 0.1rem;
-    border: none;
+    height: 30px;
+    border-radius: 5px;
+    width: 15rem;
 
 
 }
@@ -62,8 +62,9 @@
     background-color: black;
     color: white;
     border: none;
-    width: 20%;
-    height: 1.5rem;
+    width: 60px;
+    height: 33px;
+    cursor: pointer;
 
 }
 
